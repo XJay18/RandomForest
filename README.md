@@ -14,7 +14,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
     - `pygraphviz`
     - `rcviz`
 
-1. **How to train and validate a single $\texttt{Decison Tree}$?**
+1. **How to train and validate a single *Decison Tree*?**
     ```python
     from DecisionTree import DecisionTree
 
@@ -56,7 +56,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
     #Train	Decision Tree | MD: 10 | NP: None | MG: None | mode: ig | val rate: ****
     Decision Tree | MD: 10 | NP: None | MG: None | mode: ig | val rate: ****
     ```
-1. Useful method for cross validating $\texttt{Decison Tree}$
+1. Useful method for cross validating *Decison Tree*
     ```python
 
     """
@@ -66,7 +66,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
     ```
 
 
-1. **How to train and validate a $\texttt{Random Forest}$?**
+1. **How to train and validate a *Random Forest*?**
     ```python
     from RandomForest import RandomForest
 
@@ -110,7 +110,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
     Random Forest | s_rate: 0.60 | f_rate: 0.90 | mode: ['ig', 'ig', 'ig', 'ig', 'ig'] | val rate: ****
     ```
 
-1. Useful methods for cross validating $\texttt{Random Forest}$
+1. Useful methods for cross validating *Random Forest*
     ```python
 
     """
@@ -140,7 +140,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
 
 
 
-1. How to visualize a $\texttt{Decison Tree}$ using `rcviz`?
+1. How to visualize a *Decison Tree* using `rcviz`?
 
     **Firstly**, go to the file `utils.py` and setup the names of your features as well as the labels of your features like this:
     ```python
@@ -179,7 +179,7 @@ Note: The decision tree I implemented is a multi-class binary decision tree.
     callgraph.render("tree.png", show_null_returns=False)
     ```
 
-    The output plot may seem like this (this is an example of using the implemented $\texttt{DecisionTree}$ to predict whether an email is ham or spam):
+    The output plot may seem like this (this is an example of using the implemented *Decision Tree* to predict whether an email is ham or spam):
     ![tree_vis](tree.png)
 
     The green nodes represent leaves.
